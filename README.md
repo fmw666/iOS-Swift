@@ -10,8 +10,8 @@
 //
 
 /*
-* 这是多行注释
-*/
+ * 这是多行注释
+ */
 
 // 倒入第三方库关键字 import
 import Foundation
@@ -24,10 +24,10 @@ let age:Double = 11
 print("我是\(name)，我喜欢iOS.今年\(age)岁了！")
 
 /*
-swift 的变量赋值和 Python 一样，
-如果赋值 var r = 10，则 r 被默认为整型
-如果要规定变量类型则： var r:Double = 10
-*/
+ swift 的变量赋值和 Python 一样，
+ 如果赋值 var r = 10，则 r 被默认为整型
+ 如果要规定变量类型则： var r:Double = 10
+ */
 
 let PI = 3.14       // constant double PI = 3.14
 var r:Double = 10   // double r = 10
@@ -72,7 +72,7 @@ print("The area is \(area), and the volumn is \(volumn)")
 var sum = 0
 
 for n in 1...100 {
-sum += n
+    sum += n
 }
 
 print("0-100 之和是：\(sum)")
@@ -82,8 +82,8 @@ var result = 1
 var n = 13
 
 while n>0 {
-result *= n
-n -= 1
+    result *= n
+    n -= 1
 }
 
 print("13 的阶乘是：\(result)")
@@ -95,10 +95,10 @@ var value_before = 1
 print(value, terminator: " ")
 
 while value<100 {
-print(value, terminator: " ")
-let temp = value
-value += value_before
-value_before = temp
+    print(value, terminator: " ")
+    let temp = value
+    value += value_before
+    value_before = temp
 }
 print("\n")
 
@@ -153,12 +153,12 @@ print(dic)
 
 // 5）遍历迭代 key 值
 for key in dic.keys {
-print(key)
+    print(key)
 }
 
 // 6）遍历迭代 所有元素
 for (key, value) in dic {
-print("\(key)'s price is \(value) RMB")
+    print("\(key)'s price is \(value) RMB")
 }
 ```
 
