@@ -263,36 +263,72 @@ printMathRst(mathFunction: getBigger, n1: 1, n2: 2)
 // 倒入第三方库关键字 import
 import Foundation
 
-// 函数定义
-func palindrome_prime() {
-    
+// 素数判断
+func if_prime(_ t: Int) -> Bool {
+    // 小于等于1的不是素数
+    if(t <= 1) {
+        return false
+    }
+    // 求根运算
+    let end_num = Int(sqrt(Double(t)))
+    // 2、3是素数直接返回true，否则会影响后面判断条件
+    if(end_num < 2) {
+        return true
+    }
+    // 判断条件：一个数是否为素数
+    // 如果这个数对从2到这个数的开方任意一值都不能整除（求余为0），则判断为素数
+    for i in 2...end_num {
+        let num = Int(i)
+        // 某一值被整除，不满足素数判断条件，返回false
+        if(t % num == 0) {
+            return false
+        }
+    }
+    // 都不能整除，满足素数判断条件，返回true
+    return true
 }
 
-// 素数判断
-//func if_prime(_ s: String) -> Bool {
-//    end_num = (Int);sqrt((Double),s)
-//    for i in 2...end_num {
-//        id
-//    }
-//}
-
 // 回文判断
-func if_palindrome(_ s: String) -> Bool {
-
+func if_palindrome(_ t: Int) -> Bool {
+    // 求绝对值操作，原因在于我们这儿设定 -12321 也为回文数
+    let abs_t = abs(t)
+    // 数值的字符串显式转换操作
+    let s = String(abs_t)
+    // 判断需要进行的次数，即数值字符串长度的一半，1->0 2->1 3->1 4->2 5->2 ...
     let times = s.count / 2
+    // 等于0表示该数为个位数，满足回文条件，返回true
+    if(times == 0) {
+        return true
+    }
     for time in 1...times {
         let index = Int(time) - 1
+        // 数值字符串正向索引序列
         let start_index = s.index(s.startIndex, offsetBy:index)
+        // 数值字符串逆向索引序列
         let end_index = s.index(s.endIndex, offsetBy:-(index+1))
+        // 回文判断，每位 正逆索引位置处 值相等则满足回文条件，否则不满足返回false
         if(s[start_index] != s[end_index]) {
             return false
         }
     }
-
+    
     return true
 }
 
-print(if_palindrome("11221"))
+// 回文 and 素数判断
+func if_palindrome_and_prime(_ t: Int) -> Bool {
+    if(if_prime(t) && if_palindrome(t)) {
+        return true
+    }
+    else{
+        return false
+    }
+}
 
+for i in 1...1000 {
+    if(if_palindrome_and_prime(i)) {
+        print(i)
+    }
+}
 
 ```
