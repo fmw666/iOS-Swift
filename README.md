@@ -249,3 +249,50 @@ func printMathRst(mathFunction: (Int, Int)->Int, n1: Int, n2: Int) {
 printMathRst(mathFunction: getBigger, n1: 1, n2: 2)
 ```
 
+### 回文素数判断
+
+```swift
+//
+//  main.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/2.
+//  Copyright © 2019年 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+// 函数定义
+func palindrome_prime() {
+    
+}
+
+// 素数判断
+//func if_prime(_ s: String) -> Bool {
+//    end_num = (Int);sqrt((Double),s)
+//    for i in 2...end_num {
+//        id
+//    }
+//}
+
+// 回文判断
+func if_palindrome(_ s: String) -> Bool {
+
+    let times = s.count / 2
+    for time in 1...times {
+        let index = Int(time) - 1
+        let start_index = s.index(s.startIndex, offsetBy:index)
+        let end_index = s.index(s.endIndex, offsetBy:-(index+1))
+        if(s[start_index] != s[end_index]) {
+            return false
+        }
+    }
+
+    return true
+}
+
+print(if_palindrome("11221"))
+
+
+```
