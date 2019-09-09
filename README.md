@@ -162,3 +162,90 @@ for (key, value) in dic {
 }
 ```
 
+### 函数
+
+```swift
+//
+//  main.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/2.
+//  Copyright © 2019年 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+// 函数定义
+func greet(person: String, day: String) -> String {
+    return "Hello \(person), today is \(day)."
+}
+
+print(greet(person: "Bob", day: "Tuesday"))
+
+// 使用标签
+func greet1(_ person: String, on day: String) -> String {
+    return "Hello \(person), today is \(day)."
+}
+
+print(greet1("John", on:"Wednesday"))
+
+// 函数练习：编写函数，求两数之和
+func add(n1: Int, n2: Int) -> Int {
+    return n1+n2
+}
+
+print(add(n1: 1, n2: 2))
+
+// 编写函数，求数组中元素值大于10的平均值
+func average(arr: [Double]) -> Double {
+    var count = 0
+    var sum = 0.0
+    
+    for item in arr {
+        if item > 10 {
+            sum += item
+            count += 1
+        }
+    }
+    
+    return sum / Double(count)
+}
+
+var arr = [5.0, 10.0, 15.0]
+print(average(arr: arr))
+
+// 函数嵌套：输出阈值内的所有偶数
+func evenNumber(_ t: Int) {
+    var number = 0
+    
+    func add2() {
+        number += 2
+    }
+    
+    while number < t {
+        print(number)
+        add2()
+    }
+}
+evenNumber(15)
+
+// 函数作为参数传递、函数作为返回值
+func getSmaller(n1: Int, n2: Int) -> Int {
+    return n1 < n2 ? n1 : n2
+}
+
+var f:(Int, Int) -> Int = getSmaller
+print(f(1, 2))
+
+func getBigger(n1: Int, n2: Int) -> Int {
+    return n1 > n2 ? n1 : n2
+}
+
+func printMathRst(mathFunction: (Int, Int)->Int, n1: Int, n2: Int) {
+    print("The result is \(mathFunction(n1 ,n2))")
+}
+
+printMathRst(mathFunction: getBigger, n1: 1, n2: 2)
+```
+
