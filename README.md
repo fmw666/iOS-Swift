@@ -389,3 +389,73 @@ for (_,stu) in dic {
     stu.description()
 }
 ```
+
+### 类和对象
+
+```swift
+//
+//  main.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/16.
+//  Copyright © 2019年 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+/*
+ 编写代码，实现以下要求：
+ 1）实现Person类，具有firstName,  lastName，age，gender等存储属性，fullName计算属性，其中gender是枚举类型（male，female）
+ 2）具有指定初始化器和便利初始化器，指定初始化器使用required关键字修饰；
+ 3）Person具有work方法，输出“Person XXX is working”
+ 4）从Person分别派生Teacher类和Student类
+ 5）Teacher类重写work方法，输出“Teacher XXX is teaching”
+ 6）Student类增加学号（StuID）、C语言成绩（cScore）、C++语言成绩（cppScore）和数据结构成绩（dataStruct）四个存储属性
+ 7）Student类重写work方法，输出“Student XXX is Learning”
+ 8）Student类定义下标，分别返回C语言、C++语言和数据结构成绩
+ 9）创建Person、Teacher、Student对象，别分调用work方法，输出Student下标值
+ */
+
+// 创建性别枚举
+enum Gender {
+    case male
+    case female
+}
+
+// 创建Person类
+class Person {
+    // 存储属性 firstName，lastName，age，gender
+    var firstName: String
+    var lastName: String
+    var age: Int
+    var gender: Gender
+
+    // 要求子类有其他初始化器时，必须重写该初始化器
+    required init(firstName: String, lastName: String, age: Int, gender: Gender) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.age = age
+        self.gender = gender
+    }
+    
+    // 便利初始化器
+//    convenience init() {
+//
+//    }
+
+    // 计算属性 fullName
+    var fullName: String {
+        // 获取计算属性的值
+        get {
+            return "\(firstName) \(lastName)"
+        }
+        // set传递属性的值
+        set {
+            let nameList = newValue.components(separatedBy: " ")
+            firstName = nameList[0]
+            lastName = nameList[1]
+        }
+    }
+}
+```
