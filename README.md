@@ -332,3 +332,60 @@ for i in 1...1000 {
 }
 
 ```
+
+### 枚举和结构体
+
+```swift
+//
+//  main.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/16.
+//  Copyright © 2019年 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+/*
+ 编写代码实现以下功能：
+（1）定义结构体，保存学生信息，包括姓名、年龄、性别、学号、班级。其中性别是枚举类型，枚举值为Male和Female。结构体中包括方法description，该方法打印输出上述学生信息。
+（2）创建10个学生对象，保存在字典中，字典以学生学号为主键key，遍历字典并输出所有学生信息。
+ */
+
+// 定义性别枚举
+enum Sex {
+    case Male
+    case Female
+}
+
+// 创建学生信息结构体
+struct Student {
+    var name: String
+    var age: Int
+    var sex: Sex
+    var sid: String
+    var crs: Int
+
+    func description() {
+        print("姓名：\(name)，年龄：\(age)，性别：\(sex)，学号：\(sid)，班级：\(crs)")
+    }
+}
+
+var stu1 = Student(name: "范茂伟", age: 20, sex: .Male, sid: "2017110110", crs: 1)
+var stu2 = Student(name: "范小1", age: 18, sex: .Male, sid: "2017110111", crs: 1)
+var stu3 = Student(name: "范小2", age: 19, sex: .Male, sid: "2017110112", crs: 1)
+var stu4 = Student(name: "范小4", age: 20, sex: .Female, sid: "2017110113", crs: 1)
+var stu5 = Student(name: "范小5", age: 20, sex: .Male, sid: "2017110114", crs: 1)
+var stu6 = Student(name: "范小6", age: 18, sex: .Male, sid: "2017110115", crs: 1)
+var stu7 = Student(name: "范小7", age: 18, sex: .Female, sid: "2017110116", crs: 2)
+var stu8 = Student(name: "范小8", age: 19, sex: .Male, sid: "2017110117", crs: 2)
+var stu9 = Student(name: "范小9", age: 21, sex: .Female, sid: "2017110118", crs: 2)
+var stu10 = Student(name: "范小10", age: 18, sex: .Male, sid: "2017110119", crs: 3)
+
+var dic = [2017110110:stu1,2017110111:stu2,2017110112:stu3,2017110113:stu4,2017110114:stu5,2017110115:stu6,2017110116:stu7,2017110117:stu8,2017110118:stu9,2017110119:stu10]
+
+for (_,stu) in dic {
+    stu.description()
+}
+```
