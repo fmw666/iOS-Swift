@@ -438,11 +438,11 @@ class Person {
         self.age = age
         self.gender = gender
     }
-    
+
     // 便利初始化器
-//    convenience init() {
-//
-//    }
+    convenience init(haveFirstName: Bool, havaLastName:Bool, oldAge: Bool, haveGender: Bool) {
+        self.init(firstName:haveFirstName ? "Exist" : "None", lastName:havaLastName ? "Exist" : "None", age:oldAge ? 20 : 18, gender:haveGender ? .male : .male)
+    }
 
     // 计算属性 fullName
     var fullName: String {
@@ -457,5 +457,79 @@ class Person {
             lastName = nameList[1]
         }
     }
+
+    // work 方法
+    func work() {
+        print("Person \(fullName) is working")
+    }
 }
+
+// Person派生类：Teacher
+class Teacher: Person {
+    // 父类方法work重写
+    override func work() {
+        print("Teacher \(fullName) is teaching")
+    }
+}
+
+// Person派生类：Student
+class Student: Person {
+    // 新增存储属性 StuID（学号），cScore（C语言成绩），
+    //            cppScore（C++语言成绩），dataStruct（数据结构成绩）
+    var StuID: String
+    var cScore: Double
+    var cppScore: Double
+    var dataStruct: Double
+    
+    // 重写父类初始化器
+    required init(firstName: String, lastName: String, age: Int, gender: Gender) {
+        StuID = "2017110110"
+        cScore = 0
+        cppScore = 0
+        dataStruct = 0
+        super.init(firstName: firstName, lastName: lastName, age: age, gender: gender)
+    }
+    
+    // 初始化构造器
+    init(firstName: String, lastName: String, age: Int, gender: Gender, StuID: String, cScore: Double, cppScore: Double, dataStruct: Double) {
+        self.StuID = StuID
+        self.cScore = cScore
+        self.cppScore = cppScore
+        self.dataStruct = dataStruct
+        super.init(firstName: firstName, lastName: lastName, age: age, gender: gender)
+    }
+    
+    // 父类方法work重写
+    override func work() {
+        print("Student \(fullName) is Learning")
+    }
+    
+    // 定义类的下标：下标返回C语言、C++语言和数据结构成绩
+    subscript(sideIndex: Int) -> Double {
+        switch sideIndex {
+        case 1: return cScore
+        case 2: return cppScore
+        case 3: return dataStruct
+        default: return -1
+        }
+    }
+}
+
+// 创建Person对象
+let person = Person(firstName: "Fan", lastName: "MaoWei", age: 20, gender: .male)
+person.work()
+
+// 创建Teacher对象
+let teacher = Teacher(firstName: "Li", lastName: "Wei", age: 30, gender: .male)
+teacher.work()
+
+// 创建Student对象
+let student = Student(firstName: "Fan", lastName: "XiaoWei", age: 18, gender: .female, StuID: "2017110110", cScore: 80, cppScore: 98, dataStruct: 78)
+student.work()
+// 输出Student下标值
+print(student[0])
+print(student[1])
+print(student[2])
+print(student[3])
+print(student[4])
 ```
