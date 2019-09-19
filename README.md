@@ -667,4 +667,9 @@ print(student[1])
 print(student[2])
 print(student[3])
 print(student[4])
+
+// 便利构造器创建Person对象
+let p = Person(haveFirstName: true, havaLastName: false, oldAge: true, haveGender: true)
+print(p.fullName) // Exist None
+
 ```
