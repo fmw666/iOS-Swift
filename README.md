@@ -393,6 +393,137 @@ for (_,stu) in dic {
 ### 类和对象
 
 ```swift
+//
+//  main.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/9.
+//  Copyright © 2019年 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+// 类与对象
+
+// 创建类Shape
+class Shape {
+    var numberOfSides = 0
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides."
+    }
+    // 提供默认的不带参数的构造函数、拷贝构造函数、析构函数
+}
+
+// 创建一个类的实例，与C++类似
+var shape = Shape()
+shape.numberOfSides = 7
+var shapeDescription = shape.simpleDescription()
+
+
+struct S {
+    var data: Int = 1
+}
+var a = S()
+var b = a
+a.data = 42
+print("\(a.data), \(b.data)")
+
+class C {
+    var data: Int = 1
+}
+var x = C()
+var y = x
+x.data = 42
+print("\(x.data), \(y.data)")
+
+
+class NamedShape {
+    var numberOfsides = 0
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    deinit {
+        print("Shape destructed")
+    }
+    
+    func description() {
+        print("\(name)'s shape with \(numberOfsides) shape.")
+    }
+}
+
+var shape2 = NamedShape(name: "Tomn")
+shape2.numberOfsides = 4
+shape2.description()
+shape2 = NamedShape(name: "Jong")
+
+// 继承
+class Square: NamedShape {
+    var sideLength: Double
+    
+    init(sideLength: Double, name: String) {
+        self.sideLength = sideLength
+        super.init(name: name)
+        numberOfsides = 4
+    }
+    
+    override func description() {
+        print("A square named \"\(name)\" with sides of length \(sideLength).")
+    }
+    
+    func area() -> Double {
+        return sideLength * sideLength
+    }
+}
+
+let sq = Square(sideLength: 3.5, name: "MySquare")
+print(sq.area())
+sq.description()
+
+// 便利初始化器
+class N {
+    var num: Int
+    
+    init(num: Int) {
+        self.num = num
+    }
+    
+    convenience init(isBigNum: Bool) {
+        self.init(num: isBigNum ? 10000: 1)
+    }
+}
+
+var n1 = N(num: 3)
+print(n1.num)
+var n2 = N(isBigNum: true)
+print(n2.num)
+var n3 = N(isBigNum: false)
+print(n3.num)
+
+class Human {
+}
+class Man: Human {
+}
+class Woman: Human {
+}
+let man = Man()
+let woman = Woman()
+var arr = [man, woman]
+for p in arr {
+    if p is Man {
+        print("This is man.")
+    } else if p is Woman {
+        print("This is woman.")
+    }
+}
+for p in arr {
+    if (p as? Man) != nil {
+        print("This is man.")
+    }
+}
 
 ```
 
