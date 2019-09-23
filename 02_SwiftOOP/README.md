@@ -340,3 +340,187 @@ let p = Person(haveFirstName: true, havaLastName: false, oldAge: true, haveGende
 print(p.fullName) // Exist None
 
 ```
+
+### 扩展
+
+```swift
+//
+//  Extension.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/23.
+//  Copyright © 2019 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+/*
+ * 扩展：向已有的类、结构体或枚举类型添加新的功能
+ * 扩展机制只有在Swift和OC语言中有（OC中称为分类Category）
+ */
+
+// extension
+class Person {
+    var firstName = "MaoWei"
+    var lastName = "Fan"
+    var age: Int
+    
+    init(age: Int) {
+        self.age = age
+    }
+}
+
+extension Person {
+    // 扩展计算属性
+    var fullName: String {
+        return lastName + " " + firstName
+    }
+    // 扩展方法
+    func getAge() -> Int {
+        return age
+    }
+    // 扩展下标
+    subscript(i: Int) -> String {
+        if i == 0 {
+            return firstName
+        } else if i == 1 {
+            return lastName
+        } else {
+            return "error"
+        }
+    }
+    // 扩展构造函数
+    convenience init(fn: String, ln: String, age: Int) {
+        self.init(age: age)
+        firstName = fn
+        lastName = ln
+    }
+}
+
+var p = Person(age: 20)
+print(p.fullName)
+print(p.getAge())
+print(p[0])
+print(p[2])
+var p2 = Person(fn: "YuJie", ln: "Tang", age: 19)
+print(p2.fullName)
+```
+
+### 协议
+
+```swift
+//
+//  Protocol.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/23.
+//  Copyright © 2019 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+/*
+ * 协议（Protocol）：协议是为方法、属性等定义一套规范，没有具体的实现
+ * 协议能够被类、结构体等具体实现（或j遵守）
+ * 类似C++中的纯虚类，类似Java中的接口（interface）
+ */
+
+// 协议的定义
+protocol ExampleProtocol {
+    var simpleDescription: String {get set}
+    func adjust()
+}
+
+class C: ExampleProtocol {
+    var simpleDescription: String = "Download"
+    var anotherProperty: Int = 123456
+    func adjust() {
+        simpleDescription += " now 100% adjust."
+    }
+}
+
+//var c = C()
+//print(c.simpleDescription)
+//c.adjust()
+//print(c.simpleDescription)
+
+protocol MyRect {
+    func myLuckNumber() -> Int
+}
+
+class Dice {
+    let sides: Int
+    var gener: MyRect
+    init(sides: Int, gener: MyRect) {
+        self.sides = sides
+        self.gener = gener
+    }
+}
+
+class MyRectImp: MyRect {
+    func myLuckNumber() -> Int {
+        return 6
+    }
+}
+
+
+var dice = Dice(sides: 6, gener: MyRectImp())
+print(dice.gener.myLuckNumber())
+```
+
+### 泛型
+
+```swift
+//
+//  Template.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/23.
+//  Copyright © 2019 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+class Person {
+    var firstName = "MaoWei"
+    var lastName = "Fan"
+    var age: Int
+    
+    init(age: Int) {
+        self.age = age
+    }
+}
+
+// 模版函数 template function
+func isEquals<T: Comparable>(a: T, b: T) -> Bool {
+    return a == b
+}
+
+//print(isEquals(a: Person(age: 10), b: Person(age: 20)))
+print(isEquals(a: 1.0, b: 1.0))
+
+// 模版类 template class
+class Stack<T> {
+    var items = [T]()
+    
+    func push(item: T) {
+        items.append(item)
+    }
+    
+    func pop() -> T {
+        return items.removeLast()
+    }
+}
+
+var stactInt = Stack<Int>()
+stactInt.push(item: 1)
+stactInt.push(item: 2)
+print(stactInt.pop())
+print(stactInt.pop())
+
+var stackString = Stack<String>()
+// ......
+```
