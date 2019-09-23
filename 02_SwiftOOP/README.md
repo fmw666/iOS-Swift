@@ -553,7 +553,7 @@ import Foundation
  8）Student类定义下标，分别返回C语言、C++语言和数据结构成绩
  ** a3）扩展Teacher类，增加备课方法prepare，输出“Teacher XXX is preparing iOS”
  9）创建Person、Teacher、Student对象，别分调用work方法，输出Student下标值
- ** 调用Teacher对象的prepare方法，调用Teacher、Student对象的lendBook方法
+ ** a4）调用Teacher对象的prepare方法，调用Teacher、Student对象的lendBook方法
  */
 
 // 创建性别枚举
