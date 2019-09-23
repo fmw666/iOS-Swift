@@ -524,3 +524,194 @@ print(stactInt.pop())
 var stackString = Stack<String>()
 // ......
 ```
+
+### 综合应用
+
+```swift
+//
+//  main.swift
+//  Command Line Study
+//
+//  Created by student on 2019/9/23.
+//  Copyright © 2019年 范茂伟. All rights reserved.
+//
+
+// 倒入第三方库关键字 import
+import Foundation
+
+/*
+ 编写代码，实现以下要求：
+ 1）实现Person类，具有firstName,  lastName，age，gender等存储属性，fullName计算属性，其中gender是枚举类型（male，female）
+ 2）具有指定初始化器和便利初始化器，指定初始化器使用required关键字修饰；
+ 3）Person具有work方法，输出“Person XXX is working”
+ ** a1）新建一个协议SchoolProtocol，协议包括一个学院department属性（枚举Enum，自己实现enum的定义）和lendBook方法（随便写点内容，能区隔即可）
+ 4）从Person分别派生Teacher类和Student类
+ ** a2）Teacher和Student类实现SchoolProtocol协议
+ 5）Teacher类重写work方法，输出“Teacher XXX is teaching”
+ 6）Student类增加学号（StuID）、C语言成绩（cScore）、C++语言成绩（cppScore）和数据结构成绩（dataStruct）四个存储属性
+ 7）Student类重写work方法，输出“Student XXX is Learning”
+ 8）Student类定义下标，分别返回C语言、C++语言和数据结构成绩
+ ** a3）扩展Teacher类，增加备课方法prepare，输出“Teacher XXX is preparing iOS”
+ 9）创建Person、Teacher、Student对象，别分调用work方法，输出Student下标值
+ ** 调用Teacher对象的prepare方法，调用Teacher、Student对象的lendBook方法
+ */
+
+// 创建性别枚举
+enum Gender {
+    case male
+    case female
+}
+
+// 创建学院枚举
+enum Department {
+    case CS
+    case MS
+    case LS
+}
+
+// 创建SchoolProtocol协议
+protocol SchoolProtocol {
+    // 协议属性
+    var department: Department {get set}
+    // 协议方法
+    func lendBook()
+}
+
+// 创建Person类
+class Person {
+    // 存储属性 firstName，lastName，age，gender
+    var firstName: String
+    var lastName: String
+    var age: Int
+    var gender: Gender
+    
+    // 要求子类有其他初始化器时，必须重写该初始化器
+    required init(firstName: String, lastName: String, age: Int, gender: Gender) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.age = age
+        self.gender = gender
+    }
+    
+    // 便利初始化器
+    convenience init(haveFirstName: Bool, havaLastName:Bool, oldAge: Bool, haveGender: Bool) {
+        self.init(firstName:haveFirstName ? "Exist" : "None", lastName:havaLastName ? "Exist" : "None", age:oldAge ? 20 : 18, gender:haveGender ? .male : .male)
+    }
+    
+    // 计算属性 fullName
+    var fullName: String {
+        // 获取计算属性的值
+        get {
+            return "\(firstName) \(lastName)"
+        }
+        // set传递属性的值
+        set {
+            let nameList = newValue.components(separatedBy: " ")
+            firstName = nameList[0]
+            lastName = nameList[1]
+        }
+    }
+    
+    // work 方法
+    func work() {
+        print("Person \(fullName) is working")
+    }
+}
+
+// Person派生类：Teacher
+class Teacher: Person, SchoolProtocol {
+    var department: Department = .CS
+    func lendBook() {
+        print(fullName + " 《Swift 基础》，专业：\(department)")
+    }
+    
+    // 父类方法work重写
+    override func work() {
+        print("Teacher \(fullName) is teaching")
+    }
+}
+
+// Person派生类：Student
+class Student: Person, SchoolProtocol {
+    var department: Department = .MS
+    func lendBook() {
+        print(fullName + " 《统计学》，专业：\(department)")
+    }
+    
+    // 新增存储属性 StuID（学号），cScore（C语言成绩），
+    //            cppScore（C++语言成绩），dataStruct（数据结构成绩）
+    var StuID: String
+    var cScore: Double
+    var cppScore: Double
+    var dataStruct: Double
+    
+    // 重写父类初始化器
+    required init(firstName: String, lastName: String, age: Int, gender: Gender) {
+        StuID = "2017110110"
+        cScore = 0
+        cppScore = 0
+        dataStruct = 0
+        super.init(firstName: firstName, lastName: lastName, age: age, gender: gender)
+    }
+    
+    // 初始化构造器
+    init(firstName: String, lastName: String, age: Int, gender: Gender, StuID: String, cScore: Double, cppScore: Double, dataStruct: Double) {
+        self.StuID = StuID
+        self.cScore = cScore
+        self.cppScore = cppScore
+        self.dataStruct = dataStruct
+        super.init(firstName: firstName, lastName: lastName, age: age, gender: gender)
+    }
+    
+    // 父类方法work重写
+    override func work() {
+        print("Student \(fullName) is Learning")
+    }
+    
+    // 定义类的下标：下标返回C语言、C++语言和数据结构成绩
+    subscript(sideIndex: Int) -> Double {
+        switch sideIndex {
+        case 1: return cScore
+        case 2: return cppScore
+        case 3: return dataStruct
+        default: return -1
+        }
+    }
+}
+
+// 扩展Teacher类
+extension Teacher {
+    // 扩展备课方法
+    func prepare() {
+        print("Teacher \(fullName) is preparing iOS")
+    }
+}
+
+// 创建Person对象
+let person = Person(firstName: "Fan", lastName: "MaoWei", age: 20, gender: .male)
+person.work()
+
+// 创建Teacher对象
+let teacher = Teacher(firstName: "Li", lastName: "Wei", age: 30, gender: .male)
+teacher.work()
+// 调用Teacher对象协议的lendBook方法
+teacher.lendBook()
+// 调用Teacher对象的prepare扩展方法
+teacher.prepare()
+
+// 创建Student对象
+let student = Student(firstName: "Fan", lastName: "XiaoWei", age: 18, gender: .female, StuID: "2017110110", cScore: 80, cppScore: 98, dataStruct: 78)
+student.work()
+// 输出Student下标值
+print(student[0])
+print(student[1])
+print(student[2])
+print(student[3])
+print(student[4])
+// 调用Student对象协议的lendBook方法
+student.lendBook()
+
+// 便利构造器创建Person对象
+let p = Person(haveFirstName: true, havaLastName: false, oldAge: true, haveGender: true)
+print(p.fullName) // Exist None
+```
