@@ -2,7 +2,9 @@
 
 ## Swift 语言
 
-### 语法及基本数据类型
+<div align="center">
+    <h3>语法及基本数据类型</h3>
+</div>
 
 + **[语法基础](/01_SwiftPrimary#swift-语言基础)**
 
@@ -32,7 +34,10 @@
 
 + **[代码实例：回文数判断](/01_SwiftPrimary#回文素数判断)**
 
-### Swift 面向对象编程
+
+<div align="center">
+    <h3>Swift 面向对象编程</h3>
+</div>
 
 + **[枚举和结构体](/02_SwiftOOP#枚举和结构体)**
 
