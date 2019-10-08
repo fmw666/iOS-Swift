@@ -2,7 +2,7 @@
 
 ## Swift 语言
 
-<div align="center">
+<div align="right">
     <h3>语法及基本数据类型</h3>
 </div>
 
@@ -35,7 +35,7 @@
 + **[代码实例：回文数判断](/01_SwiftPrimary#回文素数判断)**
 
 
-<div align="center">
+<div align="right">
     <h3>Swift 面向对象编程</h3>
 </div>
 
