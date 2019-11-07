@@ -14,42 +14,42 @@
 
 + #### [Hello World](/01_SwiftPrimary#swift-语言基础)
 
-    + Main.storyboard 布局
-
-    + 字体处理、边距处理、字体颜色处理、按钮按下处理
-
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-            <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
+        <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
         </ul>
     </details>
+
+    + Main.storyboard 布局
+
+    + 字体处理、边距处理、字体颜色处理、按钮按下处理
 
 + #### [动画处理](/01_SwiftPrimary#swift-语言基础)
 
-    + Main.storyboard 布局
-
-    + 字体处理、边距处理、字体颜色处理、按钮按下处理
-
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-            <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
+        <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
         </ul>
     </details>
+
+    + Main.storyboard 布局
+
+    + 字体处理、边距处理、字体颜色处理、按钮按下处理
 
 + #### [腾讯新闻页]()
 
-    + Main.storyboard 布局
-
-    + 字体处理、边距处理、字体颜色处理、按钮按下处理
-
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-            <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
+        <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
         </ul>
     </details>
+
+    + Main.storyboard 布局
+
+    + 字体处理、边距处理、字体颜色处理、按钮按下处理
 
 <div align="right">
     <a href="#-ios-项目">back to top ⬆</a>
