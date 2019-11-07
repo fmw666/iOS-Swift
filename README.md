@@ -2,9 +2,14 @@
 
 > 本仓库主要存储一些 iOS 基础组件使用的 [demo 项目](#welcome)。由于开发基于 [swift 语言](#welcome)，所以会有 swift 语言的基本语法示例。如果其中某个项目对您受益，欢迎 star～✨
 
++ [iOS demo项目](#)
+
++ [Swift 语言](#)
+
+
 ## iOS demo项目
 
-&emsp;&emsp;***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome)，模拟器 [iphone 8 plus](#welcome).
+&emsp;&emsp;⚡ ***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome)，模拟器 [iphone 8 plus](#welcome).
 
 + **[Hello World](/01_SwiftPrimary#swift-语言基础)**
 
@@ -19,7 +24,7 @@
         </ul>
     </details>
 
-+ **[动画处理]](/01_SwiftPrimary#swift-语言基础)**
++ **[动画处理](/01_SwiftPrimary#swift-语言基础)**
 
     + Main.storyboard 布局
 
