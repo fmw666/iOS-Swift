@@ -1,4 +1,6 @@
-# 📖 iOS 全方面基础讲解
+# 📖 iOS 项目
+
+> 本仓库主要存储一些 iOS 基础组件使用的 [demo 项目](#welcome)。由于开发基于 [swift 语言](#welcome)，所以会有 swift 语言的基本语法示例。
 
 ## Swift 语言
 
