@@ -4,7 +4,7 @@
 
 ## iOS demo项目
 
-&emsp;&emsp;**提前声明：** 所有项目基于 [Xcode 10.*](#welcome)，模拟器 [iphone 8 plus](#welcome).
+&emsp;&emsp;***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome)，模拟器 [iphone 8 plus](#welcome).
 
 + **[Hello World](/01_SwiftPrimary#swift-语言基础)**
 
