@@ -35,7 +35,7 @@
         <ul>
             <br>
             <img src="pics/autolayout1.png" width=200>
-            <img src="pics/autolayout2.png" width=300>
+            <img src="pics/autolayout2.png" width=350>
         </ul>
     </details>
 
