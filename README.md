@@ -12,18 +12,22 @@
 
 &emsp;&emsp;⚡ ***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome)，模拟器 [iphone 8 plus](#welcome).
 
-+ #### [Hello World](/01_SwiftPrimary#swift-语言基础)
++ #### [Hello World](/proj/Hello%20World)
 
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-        <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
+        <img src="pics/helloworld.png" width=400>
         </ul>
     </details>
 
     + Main.storyboard 布局
+    
+    + Library 控件使用
 
-    + 字体处理、边距处理、字体颜色处理、按钮按下处理
+    + Library 控件的 Attributes inpector 字体处理、颜色处理
+    
+  //  + Assistant editor 辅助编辑区域使用
 
 + #### [动画处理](/01_SwiftPrimary#swift-语言基础)
 
