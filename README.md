@@ -17,7 +17,8 @@
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-        <img src="pics/helloworld.png" width=400>
+            <br>
+            <img src="pics/helloworld.png" width=300>
         </ul>
     </details>
 
