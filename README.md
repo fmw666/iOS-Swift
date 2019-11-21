@@ -34,8 +34,8 @@
         <summary>点击展开程序运行图</summary>
         <ul>
             <br>
-            <img src="pics/antolayout1.png" width=300>
-            <img src="pics/antolayout2.png" width=300>
+            <img src="pics/autolayout1.png" width=300>
+            <img src="pics/autolayout2.png" width=300>
         </ul>
     </details>
 
