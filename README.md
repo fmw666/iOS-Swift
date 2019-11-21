@@ -28,22 +28,25 @@
 
     + Library 控件的 Attributes inpector 字体处理、颜色处理
     
-+ #### [UILabel 属性](/proj/UILabel)
++ #### [自动布局](/proj/Auto%20Layout)
 
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
             <br>
-            <img src="pics/uilabel.png" width=300>
+            <img src="pics/antolayout1.png" width=300>
+            <img src="pics/antolayout2.png" width=300>
         </ul>
     </details>
 
-    + ViewController.swift 编写
+    + Main.storyboard 布局
     
-    + UILabel 组件
-    
-    + 修改 UILabel 属性：文本内容、字体和字号、字体颜色、对齐模式、引用颜色、阴影偏移量、断行模式
-    
+    + Library 控件使用
+
+    + Library 控件的 Attributes inpector 颜色处理
+
+    + Library 控件的自动布局
+
 + #### [更换主题](/proj/Change%20Theme)
 
     + <details>
@@ -63,7 +66,23 @@
     + 点击按钮事件
     
     + 随机函数
+   
++ #### [UILabel 属性](/proj/UILabel)
 
+    + <details>
+        <summary>点击展开程序运行图</summary>
+        <ul>
+            <br>
+            <img src="pics/uilabel.png" width=300>
+        </ul>
+    </details>
+
+    + ViewController.swift 编写
+    
+    + UILabel 组件
+    
+    + 修改 UILabel 属性：文本内容、字体和字号、字体颜色、对齐模式、引用颜色、阴影偏移量、断行模式
+    
 + #### [动画处理](/01_SwiftPrimary#swift-语言基础)
 
     + <details>
