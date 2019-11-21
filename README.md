@@ -27,8 +27,26 @@
     + Library 控件使用
 
     + Library 控件的 Attributes inpector 字体处理、颜色处理
+
++ #### [更换主题](/proj/Change%20Theme)
+
+    + <details>
+        <summary>点击展开程序运行图</summary>
+        <ul>
+            <br>
+            <img src="pics/changetheme.gif" width=300>
+        </ul>
+    </details>
+
+    + Main.storyboard 布局
     
-  //  + Assistant editor 辅助编辑区域使用
+    + Library 控件使用
+    
+    + Assistant editor 辅助编辑区域使用
+    
+    + 点击按钮事件
+    
+    + 随机函数
 
 + #### [动画处理](/01_SwiftPrimary#swift-语言基础)
 
