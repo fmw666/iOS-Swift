@@ -109,6 +109,25 @@
 
     + 字体处理、边距处理、字体颜色处理、按钮按下处理
 
++ #### [跟踪导弹](/proj/Track%20Bullet)
+
+    + <details>
+        <summary>点击展开程序运行图</summary>
+        <ul>
+        <img src="https://github.com/fmw666/Python/blob/master/pics/track-bullet.mp4">
+        </ul>
+    </details>
+
+    + ViewController.swift
+
+    + 图片（imageView）添加点击事件（UITapGestureRecognizer）
+
+    + 图片（imageView）添加拖动事件（UIPanGestureRecognizer）
+
+    + iOS模仿物理环境：吸附行为（UISnapBehavior）、碰撞行为（UICollisionBehavior）
+
+    + 待实现功能：点击目标后导弹出现在坦克口，自动旋转一定时长直到朝向目标的中心位置，导弹头沿着直线发射
+
 <div align="right">
     <a href="#-ios-项目">back to top ⬆</a>
 </div>
