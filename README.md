@@ -148,6 +148,26 @@
     
     + Cocoa Touch Class 之 UIViewController 视图建立
     
++ #### [底部标签栏](/proj/TabBar%20Controller)
+
+    + <details>
+        <summary>点击展开程序运行图</summary>
+        <ul>
+            <br>
+            <img src="pics/tabbar-controller.gif" width=300>
+        </ul>
+    </details>
+
+    + 多 MVC 程序设计
+    
+    + 标签栏页面
+    
+    + 标签栏跳转
+    
+    + AppDelegate.swift
+    
+    + Cocoa Touch Class 之 UIViewController 视图建立
+    
 <div align="right">
     <a href="#-ios-项目">back to top ⬆</a>
 </div>
