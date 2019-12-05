@@ -133,7 +133,8 @@
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-        <img src="pics/navigation-controller.gif" width=300>
+            <br>
+            <img src="pics/navigation-controller.gif" width=300>
         </ul>
     </details>
 
