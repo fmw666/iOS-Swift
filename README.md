@@ -114,7 +114,7 @@
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-        <img src="https://github.com/fmw666/Python/blob/master/pics/track-bullet.mp4">
+        <img src="pics/track-bullet.mp4" width=300>
         </ul>
     </details>
 
@@ -128,6 +128,25 @@
 
     + 待实现功能：点击目标后导弹出现在坦克口，自动旋转一定时长直到朝向目标的中心位置，导弹头沿着直线发射
 
++ #### [导航栏](/proj/Navigation%20Controller)
+
+    + <details>
+        <summary>点击展开程序运行图</summary>
+        <ul>
+        <img src="pics/navigation-controller.gif" width=300>
+        </ul>
+    </details>
+
+    + 多 MVC 程序设计
+    
+    + 导航页面
+    
+    + 导航跳转
+    
+    + AppDelegate.swift
+    
+    + Cocoa Touch Class 之 UIViewController 视图建立
+    
 <div align="right">
     <a href="#-ios-项目">back to top ⬆</a>
 </div>
