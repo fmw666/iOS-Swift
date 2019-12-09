@@ -83,18 +83,18 @@
     
     + 修改 UILabel 属性：文本内容、字体和字号、字体颜色、对齐模式、引用颜色、阴影偏移量、断行模式
     
-+ #### [动画处理](/01_SwiftPrimary#swift-语言基础)
++ #### [动画处理](/proj/Sleep)
 
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-        <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
+        <img src="pics/sleep.gif" width=300>
         </ul>
     </details>
 
-    + Main.storyboard 布局
+    + ViewController.swift 编写
 
-    + 字体处理、边距处理、字体颜色处理、按钮按下处理
+    + animate 动画效果处理
 
 + #### [腾讯新闻页]()
 
@@ -171,11 +171,11 @@
 + #### [多MVC参数传递](/proj/Transfer%20Parameter)
     
     + <details>
-    <summary>点击展开程序运行图</summary>
-    <ul>
-    <br>
-    <img src="pics/transfer-parameter.gif" width=300>
-    </ul>
+        <summary>点击展开程序运行图</summary>
+        <ul>
+            <br>
+            <img src="pics/transfer-parameter.gif" width=300>
+        </ul>
     </details>
     
     + 多 MVC 程序设计
@@ -190,15 +190,15 @@
     
     + 不同页面间参数传递
     
-    + #### [通讯录](/proj/Contacts)
++ #### [通讯录](/proj/Contacts)
     
     + <details>
-    <summary>点击展开程序运行图</summary>
-    <ul>
-    <br>
-    <img src="pics/contacts.gif" width=300>
-    </ul>
-    </details>
+        <summary>点击展开程序运行图</summary>
+        <ul>
+            <br>
+            <img src="pics/contacts.gif" width=300>
+        </ul>
+        </details>
     
     + 多 MVC 程序设计应用
     
