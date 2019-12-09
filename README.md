@@ -53,7 +53,7 @@
         <summary>点击展开程序运行图</summary>
         <ul>
             <br>
-            <img src="pics/changetheme.gif" width=300>
+            <img src="pics/change-theme.gif" width=300>
         </ul>
     </details>
 
