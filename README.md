@@ -168,6 +168,28 @@
     
     + Cocoa Touch Class 之 UIViewController 视图建立
     
+    + #### [多MVC参数传递](/proj/Transfer%20Parameter)
+    
+    + <details>
+    <summary>点击展开程序运行图</summary>
+    <ul>
+    <br>
+    <img src="pics/transfer-parameter.gif" width=300>
+    </ul>
+    </details>
+    
+    + 多 MVC 程序设计
+    
+    + 导航页面
+    
+    + 导航跳转
+    
+    + AppDelegate.swift
+    
+    + Cocoa Touch Class 之 UIViewController 视图建立
+    
+    + 不同页面间参数传递
+    
 <div align="right">
     <a href="#-ios-项目">back to top ⬆</a>
 </div>
