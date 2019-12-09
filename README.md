@@ -114,7 +114,7 @@
     + <details>
         <summary>点击展开程序运行图</summary>
         <ul>
-        <img src="pics/track-bullet.mp4" width=300>
+        <img src="pics/track-bullet.gif" width=300>
         </ul>
     </details>
 
