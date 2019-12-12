@@ -12,30 +12,30 @@
 
 &emsp;&emsp;⚡ ***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome) 编辑器，模拟器基于 [iphone 8 plus](#welcome).
 
-+ #### [Hello World](/proj/Hello%20World)
+### [Hello World](/proj/Hello%20World)
 
-    <div align="right">
-        <details>
-            <summary>程序运行效果</summary>
-            <ul>
-                <br>
-                <img src="pics/helloworld.png" width=300>
-            </ul>
-        </details>
-        <details>
-            <summary>程序核心代码</summary>
-            <ul>
-                <br>
-                <img src="pics/helloworld.png" width=300>
-            </ul>
-        </details>
-    </div>
+<div align="right">
+    <details>
+        <summary>程序运行效果</summary>
+        <ul>
+            <br>
+            <img src="pics/helloworld.png" width=300>
+        </ul>
+    </details>
+    <details>
+        <summary>程序核心代码</summary>
+        <ul>
+            <br>
+            <img src="pics/helloworld.png" width=300>
+        </ul>
+    </details>
+</div>
 
-    + Main.storyboard 布局
++ Main.storyboard 布局
 
-    + Library 控件使用
++ Library 控件使用
 
-    + Library 控件的 Attributes inpector 字体处理、颜色处理
++ Library 控件的 Attributes inpector 字体处理、颜色处理
     
 + #### [自动布局](/proj/Auto%20Layout)
 
