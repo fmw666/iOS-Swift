@@ -139,7 +139,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/image-code.png" width=600>
+                <img src="pics/image-code.png" width=800>
             </ul>
         </details>
     </div>
