@@ -14,13 +14,15 @@
 
 + #### [Hello World](/proj/Hello%20World)
 
-    + <details>
+<div align="right">
+    <details>
         <summary>点击展开程序运行图</summary>
         <ul>
             <br>
             <img src="pics/helloworld.png" width=300>
         </ul>
     </details>
+</div>
 
     + Main.storyboard 布局
     
