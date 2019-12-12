@@ -112,7 +112,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=600>
+                <img src="pics/uilabel-code.png" width=600>
             </ul>
         </details>
     </div>
