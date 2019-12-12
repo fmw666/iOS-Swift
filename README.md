@@ -166,7 +166,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/sleep-code.png" width=700>
+                <img src="pics/sleep-code.png" width=750>
             </ul>
         </details>
     </div>
@@ -174,6 +174,8 @@
     + ViewController.swift 编写
 
     + animate 动画效果处理
+    
+    + arc4random 随机数生成
 
 &emsp;<i><b>——</b></i>
 
