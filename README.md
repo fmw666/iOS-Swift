@@ -14,18 +14,25 @@
 
 + #### [Hello World](/proj/Hello%20World)
 
-<div align="right">
-    <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-            <br>
-            <img src="pics/helloworld.png" width=300>
-        </ul>
-    </details>
-</div>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
 
     + Main.storyboard 布局
-    
+
     + Library 控件使用
 
     + Library 控件的 Attributes inpector 字体处理、颜色处理
