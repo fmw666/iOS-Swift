@@ -179,6 +179,33 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [常用 UIKit 组件](/proj/General%20UIKit)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/general-uikit.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/general-uikit-code.png" width=750>
+            </ul>
+        </details>
+    </div>
+
+    + ViewController.swift 编写
+
+    + animate 动画效果处理
+    
+    + arc4random 随机数生成
+    
+&emsp;<i><b>——</b></i>
+
 + #### [腾讯新闻页](/proj/Tencent%20News)
 
     <div align="right">
@@ -198,9 +225,9 @@
         </details>
     </div>
 
-    + Main.storyboard 布局
+    + ViewController.swift 编写
 
-    + 字体处理、边距处理、字体颜色处理、按钮按下处理
+    + UITableView 控件
 
 &emsp;<i><b>——</b></i>
 
