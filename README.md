@@ -274,13 +274,22 @@
 
 + #### [多MVC参数传递](/proj/Transfer%20Parameter)
     
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-            <br>
-            <img src="pics/transfer-parameter.gif" width=300>
-        </ul>
-    </details>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/transfer-parameter.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
     
     + 多 MVC 程序设计
     
