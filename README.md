@@ -28,7 +28,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/hello-world-code.png" width=200>
             </ul>
         </details>
     </div>
