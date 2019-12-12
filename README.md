@@ -73,13 +73,22 @@
 
 + #### [更换主题](/proj/Change%20Theme)
 
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-            <br>
-            <img src="pics/change-theme.gif" width=300>
-        </ul>
-    </details>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/change-theme.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
 
     + Main.storyboard 布局
     
@@ -91,56 +100,103 @@
     
     + 随机函数
    
+&emsp;<i><b>——</b></i>
+
 + #### [UILabel 属性](/proj/UILabel)
 
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-            <br>
-            <img src="pics/uilabel.png" width=300>
-        </ul>
-    </details>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/uilabel.png" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
 
     + ViewController.swift 编写
     
     + UILabel 组件
     
     + 修改 UILabel 属性：文本内容、字体和字号、字体颜色、对齐模式、引用颜色、阴影偏移量、断行模式
-    
+
+&emsp;<i><b>——</b></i>
+
 + #### [动画处理](/proj/Sleep)
 
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-        <img src="pics/sleep.gif" width=300>
-        </ul>
-    </details>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/sleep.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
 
     + ViewController.swift 编写
 
     + animate 动画效果处理
 
+&emsp;<i><b>——</b></i>
+
 + #### [腾讯新闻页]()
 
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-        <img src="https://github.com/fmw666/Python/blob/master/pics/cute-chuoni.jpg?raw=true">
-        </ul>
-    </details>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/.png" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
 
     + Main.storyboard 布局
 
     + 字体处理、边距处理、字体颜色处理、按钮按下处理
 
+&emsp;<i><b>——</b></i>
+
 + #### [跟踪导弹](/proj/Track%20Bullet)
 
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-        <img src="pics/track-bullet.gif" width=300>
-        </ul>
-    </details>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/track-bullet.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
 
     + ViewController.swift
 
@@ -152,16 +208,27 @@
 
     + 待实现功能：点击目标后导弹出现在坦克口，自动旋转一定时长直到朝向目标的中心位置，导弹头沿着直线发射
 
+&emsp;<i><b>——</b></i>
+
 + #### [导航栏](/proj/Navigation%20Controller)
 
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-            <br>
-            <img src="pics/navigation-controller.gif" width=300>
-        </ul>
-    </details>
-
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/navigation-controller.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
+    
     + 多 MVC 程序设计
     
     + 导航页面
@@ -171,16 +238,27 @@
     + AppDelegate.swift
     
     + Cocoa Touch Class 之 UIViewController 视图建立
-    
+
+&emsp;<i><b>——</b></i>
+
 + #### [底部标签栏](/proj/TabBar%20Controller)
 
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-            <br>
-            <img src="pics/tabbar-controller.gif" width=300>
-        </ul>
-    </details>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/tabbar-controller.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
 
     + 多 MVC 程序设计
     
@@ -191,7 +269,9 @@
     + AppDelegate.swift
     
     + Cocoa Touch Class 之 UIViewController 视图建立
-    
+
+&emsp;<i><b>——</b></i>
+
 + #### [多MVC参数传递](/proj/Transfer%20Parameter)
     
     + <details>
@@ -213,16 +293,27 @@
     + Cocoa Touch Class 之 UIViewController 视图建立
     
     + 不同页面间参数传递
-    
+
+&emsp;<i><b>——</b></i>
+
 + #### [通讯录](/proj/Contacts)
     
-    + <details>
-        <summary>点击展开程序运行图</summary>
-        <ul>
-            <br>
-            <img src="pics/contacts.gif" width=300>
-        </ul>
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/contacts.gif" width=300>
+            </ul>
         </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
     
     + 多 MVC 程序设计应用
     
