@@ -179,7 +179,7 @@
     
 &emsp;<i><b>——</b></i>
 
-+ #### [动画处理](/proj/Pop%20Animate)
++ #### [添加按钮 的视图动画](/proj/Pop%20Animate)
 
     <div align="right">
         <details>
