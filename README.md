@@ -81,7 +81,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/helloworld.png" width=600>
             </ul>
         </details>
     </div>
@@ -112,7 +112,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/helloworld.png" width=600>
             </ul>
         </details>
     </div>
@@ -139,14 +139,16 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/image-code.png" width=300>
+                <img src="pics/image-code.png" width=600>
             </ul>
         </details>
     </div>
 
     + ViewController.swift 编写
 
-    + animate 动画效果处理
+    + 线程休眠，显示启动图片
+    
+    + 图片选择器（UIImagePickerController）
 
 &emsp;<i><b>——</b></i>
 
