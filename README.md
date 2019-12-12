@@ -166,7 +166,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/sleep-code.png" width=700>
             </ul>
         </details>
     </div>
