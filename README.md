@@ -200,9 +200,13 @@
 
     + ViewController.swift 编写
 
-    + animate 动画效果处理
+    + UIPickerView 选择器
     
-    + arc4random 随机数生成
+    + UITextField 属性设置
+    
+    + UISwitch 组件
+    
+    + UITextView 组件
     
 &emsp;<i><b>——</b></i>
 
