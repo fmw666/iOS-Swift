@@ -125,6 +125,31 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [启动动画 及 头像选择](/proj/image)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/image.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/image-code.png" width=300>
+            </ul>
+        </details>
+    </div>
+
+    + ViewController.swift 编写
+
+    + animate 动画效果处理
+
+&emsp;<i><b>——</b></i>
+
 + #### [动画处理](/proj/Sleep)
 
     <div align="right">
