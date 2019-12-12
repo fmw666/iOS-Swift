@@ -53,11 +53,7 @@
             </ul>
         </details>
         <details>
-            <summary>程序核心代码</summary>
-            <ul>
-                <br>
-                <img src="pics/c" width=300>
-            </ul>
+            <summary><s>程序核心代码</s></summary>
         </details>
     </div>
 
