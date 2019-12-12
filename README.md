@@ -336,6 +336,43 @@
     
     + 不同页面间参数传递
     
+&emsp;<i><b>——</b></i>
+
++ #### [微信 APP demo](/proj/WeChat%20App)
+    
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/wechat-app.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/helloworld.png" width=300>
+            </ul>
+        </details>
+    </div>
+    
+    + 多 MVC 程序设计应用
+    
+    + 导航页面
+    
+    + 导航跳转
+    
+    + UIBarButtonItem
+    
+    + statusBar
+    
+    + tableView 单元格创建
+    
+    + Info.plist、General 属性修改
+    
+    + ...
+    
 <div align="right">
     <a href="#-ios-项目">back to top ⬆</a>
 </div>
