@@ -10,7 +10,7 @@
 
 ## iOS demo项目
 
-&emsp;&emsp;⚡ ***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome)，模拟器 [iphone 8 plus](#welcome).
+&emsp;&emsp;⚡ ***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome) 编辑器，模拟器基于 [iphone 8 plus](#welcome).
 
 + #### [Hello World](/proj/Hello%20World)
 
