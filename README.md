@@ -175,6 +175,31 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [重力下落行为](/proj/Fall%20Down)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/fall-down.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/fall-down-code.png" width=600>
+            </ul>
+        </details>
+    </div>
+
+    + iOS模仿物理环境：重力行为（UIGravityBehavior）、碰撞行为（UICollisionBehavior）
+
+    + 分段选择控件（UISegmentedControl）
+    
+&emsp;<i><b>——</b></i>
+
 + #### [跟踪导弹](/proj/Track%20Bullet)
 
     <div align="right">
