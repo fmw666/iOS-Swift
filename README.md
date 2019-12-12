@@ -394,7 +394,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/transfer-parameter.png" width=700>
+                <img src="pics/transfer-parameter-code.png" width=700>
             </ul>
         </details>
     </div>
