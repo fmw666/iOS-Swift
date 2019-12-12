@@ -176,6 +176,33 @@
     + animate 动画效果处理
     
     + arc4random 随机数生成
+    
+&emsp;<i><b>——</b></i>
+
++ #### [动画处理](/proj/Pop%20Animate)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/pop-animate.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/pop-animate-code.png" width=750>
+            </ul>
+        </details>
+    </div>
+
+    + ViewController.swift 编写
+
+    + animate 动画效果处理
+    
+    + 图片翻转
 
 &emsp;<i><b>——</b></i>
 
@@ -274,7 +301,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/track-bullet-code.png" width=720>
             </ul>
         </details>
     </div>
@@ -305,7 +332,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/navigation-controller-code.png" width=700>
             </ul>
         </details>
     </div>
@@ -336,7 +363,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/tabbar-controller-code.png" width=700>
             </ul>
         </details>
     </div>
@@ -367,7 +394,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/transfer-parameter.png" width=700>
             </ul>
         </details>
     </div>
@@ -400,7 +427,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/contacts-code.png" width=700>
             </ul>
         </details>
     </div>
@@ -433,7 +460,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/wechat-app-code.png" width=700>
             </ul>
         </details>
     </div>
