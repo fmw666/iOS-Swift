@@ -12,7 +12,7 @@
 
 &emsp;&emsp;⚡ ***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome) 编辑器，模拟器基于 [iphone 8 plus](#welcome).
 
-<i><b>——</b></i>
+<i>————</i>
 
 + #### [Hello World](/proj/Hello%20World)
 
@@ -39,7 +39,7 @@
 
     + Library 控件的 Attributes inpector 字体处理、颜色处理
 
-<i><b>——</b></i>
+<i>———</i>
 
 + #### [自动布局](/proj/Auto%20Layout)
 
