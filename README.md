@@ -179,21 +179,21 @@
 
 &emsp;<i><b>——</b></i>
 
-+ #### [腾讯新闻页]()
++ #### [腾讯新闻页](/proj/Tencent%20News)
 
     <div align="right">
         <details>
             <summary>程序运行效果</summary>
             <ul>
                 <br>
-                <img src="pics/.png" width=300>
+                <img src="pics/tencent-news.png" width=300>
             </ul>
         </details>
         <details>
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/helloworld.png" width=300>
+                <img src="pics/tencent-news-code.png" width=700>
             </ul>
         </details>
     </div>
