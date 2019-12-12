@@ -206,6 +206,33 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [下拉收回 的视图动画](/proj/Login%20Animate)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/login-animate.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/login-animate-code.png" width=700>
+            </ul>
+        </details>
+    </div>
+
+    + ViewController.swift 编写
+
+    + animate 动画效果处理
+    
+    + 图片弹出收回
+
+&emsp;<i><b>——</b></i>
+
 + #### [常用 UIKit 组件](/proj/General%20UIKit)
 
     <div align="right">
