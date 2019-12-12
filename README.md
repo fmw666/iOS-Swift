@@ -12,7 +12,7 @@
 
 &emsp;&emsp;⚡ ***提前声明：*** 所有项目基于 [Xcode 10.*](#welcome) 编辑器，模拟器基于 [iphone 8 plus](#welcome).
 
-### [Hello World](/proj/Hello%20World)
+<div align="center"><h3><a href="/proj/Hello%20World">Hello World</a></h3></div>
 
 <div align="right">
     <details>
@@ -22,6 +22,8 @@
             <img src="pics/helloworld.png" width=300>
         </ul>
     </details>
+</div>
+<div align="left">
     <details>
         <summary>程序核心代码</summary>
         <ul>
