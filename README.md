@@ -81,7 +81,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/textfield-code.png" width=600>
+                <img src="pics/textfield-code.png" height=713>
             </ul>
         </details>
     </div>
@@ -108,7 +108,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/change-theme-code.png" width=600>
+                <img src="pics/change-theme-code.png" height=667>
             </ul>
         </details>
     </div>
