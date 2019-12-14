@@ -233,6 +233,33 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [选择器](/proj/Picker)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/picker.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/picker-code.png" width=750>
+            </ul>
+        </details>
+    </div>
+
+    + ViewController.swift 编写
+
+    + UIPickerView 选择器
+    
+    + UIToolbar 工具栏
+    
+&emsp;<i><b>——</b></i>
+
 + #### [常用 UIKit 组件](/proj/General%20UIKit)
 
     <div align="right">
@@ -271,7 +298,7 @@
             <summary>程序运行效果</summary>
             <ul>
                 <br>
-                <img src="pics/tableview.png" width=300>
+                <img src="pics/tableview.gif" width=300>
             </ul>
         </details>
         <details>
