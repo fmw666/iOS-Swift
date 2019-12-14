@@ -166,7 +166,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/alert-code.png" height=667>
+                <img src="pics/alert-code.png" width=900>
             </ul>
         </details>
     </div>
@@ -666,7 +666,7 @@
             <summary>程序核心代码</summary>
             <ul>
                 <br>
-                <img src="pics/contacts-code.png" height=322>
+                <img src="pics/contacts-code.png" width=900>
             </ul>
         </details>
     </div>
