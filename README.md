@@ -152,6 +152,33 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [弹出可选框](/proj/Alert)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/alert.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/alert-code.png" width=750>
+            </ul>
+        </details>
+    </div>
+
+    + ViewController.swift 编写
+    
+    + UIAlertController 提醒框控制器
+
+    + UIAlertAction 提醒动作
+
+&emsp;<i><b>——</b></i>
+
 + #### [启动动画 及 头像选择](/proj/image)
 
     <div align="right">
