@@ -339,6 +339,35 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [全屏图片拖动](/proj/ScrollView)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/scrollview.gif" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/scrollview-code.png" width=750>
+            </ul>
+        </details>
+    </div>
+
+    + Main.storyboard 布局
+
+    + ViewController.swift 编写
+
+    + UIScrollView 选择器
+    
+    + UIImage 图片对象
+
+&emsp;<i><b>——</b></i>
+
 + #### [选择器](/proj/Picker)
 
     <div align="right">
