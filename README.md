@@ -179,6 +179,31 @@
 
 &emsp;<i><b>——</b></i>
 
++ #### [屏幕视图](/proj/ViewForm)
+
+    <div align="right">
+        <details>
+            <summary>程序运行效果</summary>
+            <ul>
+                <br>
+                <img src="pics/viewform.png" width=300>
+            </ul>
+        </details>
+        <details>
+            <summary>程序核心代码</summary>
+            <ul>
+                <br>
+                <img src="pics/viewform-code.png" width=750>
+            </ul>
+        </details>
+    </div>
+
+    + ViewController.swift 编写
+    
+    + arc4random 随机数生成
+    
+&emsp;<i><b>——</b></i>
+
 + #### [动画处理](/proj/Sleep)
 
     <div align="right">
